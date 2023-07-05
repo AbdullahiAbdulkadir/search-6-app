@@ -3,6 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: #0B2447;
 }
 
 .big-container {
@@ -19,6 +20,8 @@ h2, p {
 .box1 {
     display: flex;
     justify-content: space-between;
+    background-color: #0B2447;
+    color: white;
 }
 
 .div-input,
@@ -30,13 +33,17 @@ h2, p {
     display: flex;
     justify-content: space-between;
     padding: 5px;
+    background-color: yellow;
 }
+
+.div-input input[type="text"] {
+    background-color: yellow;
+  }
 
 input {
     width: 180px;
     background-color: blue;
     border: none;
-    
 }
 
 input[type="text"]::placeholder {
@@ -51,10 +58,10 @@ img {
 .box3 h3 {
         margin-bottom: 0;
     }
-    .box3 p {
-        margin-top: 0;
-    }
 
+.bx3-b {
+    margin-top: 20px;
+}
 
 .inline-img, .text-box3 {
   display: inline-block;
@@ -68,14 +75,57 @@ img {
 
 .p2 {
         display: block;
+        font-size: 12px;
     }
     
 .text-box3 {
-    font-size: 15px;
+    font-size: 17px;
 }
 
 
-.bx3-flex {
-    width: 180px;
-    display: inline-block;
+.boxA,.boxB {
+        display: inline-block;
+    }
+
+
+.box3 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.boxB {
+    margin-top: 15px;
+}
+
+.item1, .item2, .item3 {
+    margin-right: 70px; 
+}
+
+.box4 {
+    display: flex;
+}
+
+.inbetween {
+    background-color: #0B2447;
+}
+
+.inbetweenText {
+    color: #0B2447;
+}
+
+.box4 {
+    justify-content: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: navy;
+    width: 86%;
+    height: 60px;
+    margin-left: 50px;
+    color: white;
+    padding: 5px;
+}
+
+
+.second-bigbox {
+    padding: 10px;
 }
