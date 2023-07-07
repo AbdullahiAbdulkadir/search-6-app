@@ -6,12 +6,19 @@ function fetchData() {
     .then((data) => {
       const userData = document.getElementById("user-data");
       userData.innerHTML = `
+                        <div class="flex">
+                        <div class="inline2">
+                        <img class="pic" src="cat.jpeg">
+                        <div class="inline1">
                         <h3>${data.name}</h3>
                         <p class="username">@${data.login}</p>
-                        <p>Joined: ${data.created_at}</p>
                         <p class="bio">${
                           data.bio || "This profile has no bio"
                         }</p>
+                        </div>
+                        </div>
+                        <p class="joined">Joined: ${data.created_at}</p>
+                        </div>
                         <p>Repos: ${data.public_repos}</p>
                         <p>Followers: ${data.followers}</p>
                         <p>Following: ${data.following}</p>
