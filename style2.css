@@ -1,3 +1,7 @@
+body {
+    background-color: #03001C;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -11,12 +15,13 @@
 
     justify-content: center;
   align-items: center;
-  background-color: blue;
+  background-color: #301E67;
   border-radius: 10px;
   padding: 20px;
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 500px;
+  height: 2px;
 }
 
 .pic, .inline1 {
@@ -25,6 +30,14 @@
 
 .inline2, .joined {
     display: inline-block;
+}
+
+.incline2 {
+    margin-left: 70px;
+}
+
+.inline1 {
+    color: white;
 }
 
 .flex {
@@ -37,13 +50,13 @@
 }
 
 .pic {
-    width: 126.76px; 
-    border-radius: 80px;
+    width: 100px; 
+    border-radius: 70px;
   }
 
 #username {
     width: 450px;
-    background-color: blue; 
+    background-color: #301E67; 
     border: none;
 }
 
@@ -52,12 +65,13 @@
 }
 
 #user-data {
-  background-color: blue;
+  background-color: #301E67;
   border-radius: 10px;
-  padding: 20px;
+  /* padding: 20px; */
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  /* width: 500px; */
+  padding-right: 20px;
 }
 
 /* CSS for headings */
@@ -69,12 +83,12 @@ h3 {
 /* CSS for username */
 .username {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin-bottom: 13px;
 }
 
 /* CSS for bio */
 .bio {
-  color: #777;
+  color: white;
   font-size: 14px;
   margin-bottom: 10px;
 }
@@ -91,4 +105,48 @@ svg {
   vertical-align: middle;
 }
 
+.repo-followers {
+    display: flex;
+    align-items: center;
+    background-color: #03001C;
+    color: white;
+    width: 400px;
+    height: 60px;
+    padding: 10px;
+    margin-left: 85px;
+    border-radius: 5px;
+}
 
+.p1 {
+    padding-right: 90px;
+}
+
+.grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        margin-left: 90px;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+
+.grid-container p {
+        margin: 0;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        color: white;
+    }
+
+.joined {
+    color: white;
+}
+
+
+#button {
+    height: 28px;
+    width: 75px;
+    background-color: #6C00FF;
+    border-radius: 8px;
+    color: white;
+}
