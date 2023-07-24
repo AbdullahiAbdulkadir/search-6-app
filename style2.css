@@ -65,9 +65,10 @@ body {
 }
 
 #user-data {
+  /* display: none; */
   background-color: #301E67;
   border-radius: 10px;
-  /* padding: 20px; */
+  padding: 20px;
   margin-top: 20px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   /* width: 500px; */
@@ -149,4 +150,16 @@ svg {
     background-color: #6C00FF;
     border-radius: 8px;
     color: white;
+}
+
+a {
+    text-decoration: none;
+  }
+
+.repo-followers .p1 {
+  font-size: 11px; 
+}
+
+.repo-followers strong {
+  font-size: 18px; 
 }
